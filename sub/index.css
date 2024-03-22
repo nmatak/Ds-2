@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+}
+
+
+.container {
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input-field{
+    padding: 20px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: black;
+    position: relative;
+}
+.deleteJoke{
+    background-color: rgb(137, 35, 35);
+}
+
+#joke {
+    margin-top: 20px;
+}
