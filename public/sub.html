@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sub.css" />
+    <title>sub</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 style="color: red" id="subh1">Submit a Joke</h1>
+      <label for="jokeType">Choose a Joke Type:</label>
+      <select id="jokeType">
+        <option value="" selected>Any</option>
+      </select>
+
+      <div id="jokeContainer">
+        <input
+          type="text"
+          placeholder="Moderate the joke setup text"
+          id="moderateSubSetup"
+        />
+        <input
+          type="text"
+          placeholder="Moderate the joke punchline"
+          id="moderateSubPunchline"
+        />
+        <button id="submitSubJoke">Submit Joke</button>
+      </div>
+    </div>
+    <div id="container2" style="display: none">
+      <h1 style="color: red">Joke Submitted Successfully</h1>
+      <button id="submitAnotherSubJoke">Submit Another Joke</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

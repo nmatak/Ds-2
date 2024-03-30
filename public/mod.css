@@ -12,7 +12,7 @@ body {
 }
 
 
-.container {
+#container {
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ button {
     border-radius: 5px;
 }
 
-.input-field{
+#moderatePunchline, #moderateSetup{
     padding: 20px 20px;
     font-size: 16px;
     background-color: #007bff;
@@ -46,7 +46,11 @@ button {
     color: black;
     position: relative;
 }
-.deleteJoke{
+
+#submitJoke{
+    background-color: green;
+}
+#deleteJoke{
     background-color: rgb(137, 35, 35);
 }
 
