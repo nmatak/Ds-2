@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mod.css" />
+    <title>mod</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 style="color: red" id="modh1">Moderate Joke</h1>
+      <label for="jokeType">Choose a Joke Type:</label>
+      <select id="jokeType">
+        <option value="any" selected>any</option>
+      </select>
+      <button id="addNewType">Add New Type</button>
+
+      <div id="jokeContainer">
+        <input
+          type="text"
+          id="moderateSetup"
+          placeholder="Moderate the joke setup text"
+        />
+        <input
+          type="text"
+          id="moderatePunchline"
+          placeholder="Moderate the joke punchline"
+        />
+      </div>
+      <div>
+        <button id="submitModJoke">Submit Joke</button>
+        <button id="deleteJoke">Delete Joke</button>
+      </div>
+    </div>
+    <div id="container2" style="display: none">
+      <h1 style="color: red">Joke Submitted Successfully</h1>
+      <button id="submitAnotherModJoke">Submit Another Joke</button>
+    </div>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
